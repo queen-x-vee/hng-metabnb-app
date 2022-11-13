@@ -15,7 +15,7 @@ const Navbar = () => {
           <li>Community</li>
         </ul>
         
-        <a href='/connect' className=" w-40 rounded-lg bg-purple"> hi</a>
+        <button className=" w-40 rounded-lg bg-purple text-white"> Connect wallet</button>
         
       </div>
     </div>

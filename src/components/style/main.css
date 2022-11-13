@@ -1,0 +1,7 @@
+.main-span{
+    background: -webkit-linear-gradient(#A02279,
+    #FFC089);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}

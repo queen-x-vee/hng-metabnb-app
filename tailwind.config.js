@@ -5,12 +5,14 @@ module.exports = {
   ],
   theme: {
     colors:{
-      'white':'#fffff',
+      'white':'#ffff',
       'purple':'#a02279',
       'light-purple':'#ffc089',
       'grey':'#a3a3a3',
       'light-grey':'#b8b8b8',
-      'black': '##434343'
+      'card-grey':'#d7d7d7',
+      'black': '##434343',
+
     },
     extend: {
       fontFamily:{
