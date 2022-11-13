@@ -2,7 +2,7 @@ import React from "react";
 import MainImage from './images/Frame 59546.png'
 const Main3 = () => {
   return (
-    <div className="w-full bg-purple py-8 mt-8">
+    <div className="w-full bg-purple py-8 ">
       <div className="w-10/12 flex flex-col mx-auto md:flex-row md:justify-between md:gap-12 md:items-center">
         <div className="my-8 h-100 flex flex-col justify-between md:w-6/12">
           <div className="font-Rose font-bold text-5xl text-white mb-9 ">
