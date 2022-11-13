@@ -12,10 +12,10 @@ const Main2 = () => {
         </h2>
           
        
-        <div className=' w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-8 lg:grid-cols-4 lg:gap-6 lg:grid-rows-4'>
+        <div className=' w-full grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-6 md:grid-rows-8 lg:grid-cols-4 lg:gap-6 lg:grid-rows-4'>
         {appImages.map((app)=>{
           return(
-            <div className='mx-auto border border-card-grey rounded-2xl'>
+            <div className='mx-auto  border border-card-grey rounded-2xl'>
             <img src={app.appImage} key={app.id} className='w-64 p-4' alt='mainImage'/>
             <div className='w-60 p-3'>
             <div className='flex flex-row justify-between'><span>Desert king</span><span>1MBT per night</span></div>
