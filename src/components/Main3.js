@@ -13,7 +13,7 @@ const Main3 = () => {
             gets amazing gift cards which are traded as NFTs. These NFTs gives our customer access
             to loads of our exclusive services.
           </div>
-          <button className="bg-white text-purple">
+          <button className="bg-white text-purple rounded-lg py-4 w-40">
             Learn More
           </button>
         </div>
