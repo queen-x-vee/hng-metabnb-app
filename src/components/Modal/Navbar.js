@@ -30,17 +30,15 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/places">Place to stay</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/">NFTs</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/">Community</Link>
           </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+          
          
         </ul>
         <button
@@ -54,7 +52,7 @@ const Navbar = () => {
       </div>
       
         <div className="hamburger" onClick={handleClick}>
-                {show ? (<FaTimes size={20} style={{ color: '#a02279' }} />) : (<FaBars size={20} style={{ color: '#a02279' }} />)}
+                {show ? (<FaTimes size={20} style={{ color: '#a02279',marginLeft:'16px' }} />) : (<FaBars size={20} style={{ color: '#a02279',marginLeft:'16px' }} />)}
 
             </div>
     
