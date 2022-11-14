@@ -15,7 +15,8 @@ module.exports = {
       'black': '##434343',
       'footer-black':'#1d1d1e',
       'footer-white':'#f1f3f9',
-      'modal-grey':'#cfd8dc'
+      'modal-grey':'#cfd8dc',
+      'modal-bg':'#f8f9fa'
 
     },
     extend: {

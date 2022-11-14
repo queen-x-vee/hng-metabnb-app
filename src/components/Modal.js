@@ -30,7 +30,7 @@ const Modal = (props) => {
           minHeight: "320px",
           margin: "1rem",
           justifySelf: "center",
-          width: "600px",
+          width: "60vw",
         }}
       >
         <div className="w-full flex flex-row justify-between p-5">
@@ -42,7 +42,7 @@ const Modal = (props) => {
         <div className="w-full border-t  border-modal-grey"></div>
         <div className="flex flex-col p-4">
           <p>Choose your prefered wallet</p>
-          <div className="py-3 px-5 flex flex-row justify-between">
+          <div className="py-3 px-5 flex flex-row justify-between bg-modal-bg rounded-xl border-2 border-modal-grey mb-3 mt-4">
             <div className="flex flex-row items-center">
               <img src={Meta} alt='meta' />
               <p className="ml-1">Metamask</p>
@@ -51,7 +51,7 @@ const Modal = (props) => {
               <img src={Forward} alt='forward' />
             </div>
           </div>
-          <div className="py-3 px-5 flex flex-row justify-between">
+          <div className="py-3 px-5 flex flex-row justify-between bg-modal-bg rounded-xl border-2 border-modal-grey">
             <div className="flex flex-row items-center">
               <img src={WalletC} alt='wallet' />
               <p className="ml-1">WalletConnect</p>

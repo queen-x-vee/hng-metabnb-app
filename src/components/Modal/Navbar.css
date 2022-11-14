@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
 
 .header {
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .nav-menu li a {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Red Rose', cursive;
     font-size: 1.3rem;
     font-weight: 400;
 }
@@ -48,7 +48,10 @@
          width: 100%;
          height: 100vh;
          position: absolute;
+         background-color: #ffc089;
+         color: #a02279 ;
          top: 0;
+         bottom:10px;
          left:-100%;
          z-index: -3;
          transition: 0.3s;
@@ -69,10 +72,10 @@
 
     .hamburger{
         display: initial;
-        z-index: 1;
+        z-index: 6 !important;
     }
     .imageHeader{
-        width: 30%;
+        width: 35%;
     }
 
 

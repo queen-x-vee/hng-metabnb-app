@@ -19,6 +19,7 @@ const Navbar = () => {
     setShow(!show);
   };
 
+
   return (
     <div className="w-full">
       <div className="header">
@@ -26,6 +27,10 @@ const Navbar = () => {
           <img src={meta} className="" alt="logo" />
         </div>
         <ul className={show ? "nav-menu active" : "nav-menu"}>
+        <div className="hamburger" onClick={handleClick}>
+                {show ? (<FaTimes size={25} style={{ color: '#a02279' }}  />) : (<FaBars size={20} style={{ color: '#a02279' }} />)}
+
+            </div>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -51,8 +56,8 @@ const Navbar = () => {
         
       </div>
       
-        <div className="hamburger" onClick={handleClick}>
-                {show ? (<FaTimes size={20} style={{ color: '#a02279',marginLeft:'16px' }} />) : (<FaBars size={20} style={{ color: '#a02279',marginLeft:'16px' }} />)}
+      <div className="hamburger" onClick={handleClick}>
+                {show ? (<FaTimes size={20} style={{ color: '#a02279', marginLeft:'16px' }}  />) : (<FaBars size={20} style={{ color: '#a02279', marginLeft:'16px' }} />)}
 
             </div>
     
