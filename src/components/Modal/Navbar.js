@@ -1,38 +1,64 @@
 import React from "react";
-import meta from '../images/Group.png'
+import meta from "../images/Group.png";
 import Modal from "../Modal";
-
+import './Navbar.css'
+import { FaTimes, FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [modal, setModal] = React.useState(false)
-  const handleShowMessage = ()=>{
-    setModal(!modal)
-  }
-  
-  const closeModal = ()=>{
-    setModal(!modal)
-  }
+  const [modal, setModal] = React.useState(false);
+  const handleShowMessage = () => {
+    setModal(!modal);
+  };
 
-  
-  
+  const closeModal = () => {
+    setModal(!modal);
+  };
+  const [show, setShow] = React.useState(false);
+  const handleClick = () => {
+    setShow(!show);
+  };
 
   return (
-    <div className="w-full ">
-      <div className=" w-10/12 flex md:flex-row md:justify-between md:items-center md:mx-auto md:mt-12 md:h-12">
-        <div className="h-8">
-          <img src={meta} className='h-full' alt='logo'/>
+    <div className="w-full">
+      <div className="header">
+        <div className="imageHeader">
+          <img src={meta} className="" alt="logo" />
         </div>
-        <ul className="flex md:flex-row md:justify-between md:w-6/12 md:mx-12 ">
-          <li>Home</li>
-          <li>Place to stay</li>
-          <li>NFTs</li>
-          <li>Community</li>
+        <ul className={show ? "nav-menu active" : "nav-menu"}>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+         
         </ul>
-        
-        <button className=" w-40 py-3 rounded-lg bg-purple text-white" onClick={handleShowMessage}> Connect wallet</button>
+        <button
+          className=" w-40 py-3 rounded-lg bg-purple text-white"
+          onClick={handleShowMessage}
+        >
+          Connect wallet
+        </button>
+
         
       </div>
-      {modal? (<Modal closeModal={closeModal} />): null}
+      
+        <div className="hamburger" onClick={handleClick}>
+                {show ? (<FaTimes size={20} style={{ color: '#a02279' }} />) : (<FaBars size={20} style={{ color: '#a02279' }} />)}
+
+            </div>
+    
+      {modal ? <Modal closeModal={closeModal} /> : null}
     </div>
   );
 };
