@@ -11,8 +11,10 @@ module.exports = {
       'grey':'#a3a3a3',
       'light-grey':'#b8b8b8',
       'card-grey':'#d7d7d7',
+      'card-black': '#434343',
       'black': '##434343',
-      'footer-black':'#1d1d1e'
+      'footer-black':'#1d1d1e',
+      'footer-white':'#f1f3f9'
 
     },
     extend: {

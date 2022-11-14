@@ -12,15 +12,17 @@ const MainHero = () => {
         </h2>
           
        
-        <div className=' w-full grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-6 md:grid-rows-4 lg:grid-cols-4 lg:gap-6 lg:grid-rows-2'>
+        <div className=' w-full mx-auto  grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-6 md:grid-rows-4 lg:grid-cols-4  lg:grid-rows-2'>
         {appImages2.map((app)=>{
           return(
-            <div className='mx-auto  border border-card-grey rounded-2xl'>
-            <img src={app.appImage2} key={app.id} className='w-64 p-4' alt='mainImage'/>
-            <div className='w-60 p-3'>
-            <div className='flex flex-row justify-between'><span>Desert king</span><span>1MBT per night</span></div>
-            <div className='flex flex-row justify-between'><span>2345km away</span><span>available for two weeks stay</span></div>
+            <div className='flex flex-row justify-between w-full '>
+            <div className=' border border-card-grey rounded-2xl mx-auto'>
+            <img src={app.appImage2} key={app.id} className='w-64 p-4 mx-auto' alt='mainImage'/>
+            <div className='w-full p-3'>
+            <div className='flex flex-row justify-between text-card-black text-sm '><span>Desert king</span><span>1MBT per night</span></div>
+            <div className='flex flex-row justify-between text-card-black text-sm my-6'><span>2345km away</span><span>available for two weeks stay</span></div>
             <img src={Star} alt='star'/>
+            </div>
             </div>
             </div>
           )
