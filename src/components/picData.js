@@ -18,35 +18,35 @@ import image16 from './images/Frame 151 (16).png'
 export const appImages = [
     {
         id:1,
-        appImage: `${image1}`
-    },
-    {
-        id:2,
-        appImage: `${image2}`
-    },
-    {
-        id:3,
-        appImage: `${image3}`
-    },
-    {
-        id:4,
-        appImage: `${image4}`
-    },
-    {
-        id:5,
         appImage: `${image5}`
     },
     {
-        id:6,
+        id:2,
         appImage: `${image6}`
     },
     {
-        id:7,
+        id:3,
         appImage: `${image7}`
     },
     {
-        id:8,
+        id:4,
         appImage: `${image8}`
+    },
+    {
+        id:5,
+        appImage: `${image1}`
+    },
+    {
+        id:6,
+        appImage: `${image2}`
+    },
+    {
+        id:7,
+        appImage: `${image3}`
+    },
+    {
+        id:8,
+        appImage: `${image4}`
     },
     {
         id:9,
