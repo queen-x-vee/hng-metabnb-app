@@ -16,7 +16,9 @@ module.exports = {
       'footer-black':'#1d1d1e',
       'footer-white':'#f1f3f9',
       'modal-grey':'#cfd8dc',
-      'modal-bg':'#f8f9fa'
+      'modal-bg':'#f8f9fa',
+      'nav-input':'#b4b4b4',
+      'input-placeholder':'#333333'
 
     },
     extend: {
