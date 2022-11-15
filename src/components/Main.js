@@ -16,15 +16,15 @@ const Main = () => {
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
-          <div className="w-full flex flex-row h-14">
+          <div className="w-full flex flex-row h-14 relative">
             <input
               name="search"
               type="search"
               placeholder="Search for location"
-              className="border rounded-tl-md rounded-bl-md md:rounded-tl-lg md:rounded-bl-lg border-grey  placeholder:p-1"
+              className="border rounded-tl-md rounded-bl-md md:rounded-tl-lg md:rounded-bl-lg border-grey w-3/5 placeholder:p-1"
             />
           
-              <button className="bg-purple rounded-br-lg rounded-tr-lg w-2/5 h-full text-white " > Search</button>
+              <button className="bg-purple rounded-br-lg rounded-tr-lg w-2/5 h-full text-white absolute left-52 " > Search</button>
           
           </div>
         </div>
