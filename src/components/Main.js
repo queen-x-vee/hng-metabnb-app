@@ -24,7 +24,7 @@ const Main = () => {
               className="border rounded-tl-md rounded-bl-md md:rounded-tl-lg md:rounded-bl-lg border-grey w-3/5 placeholder:p-1"
             />
           
-              <button className="bg-purple rounded-br-lg rounded-tr-lg w-2/5 h-full text-white absolute left-52 " > Search</button>
+              <button className="bg-purple rounded-br-lg rounded-tr-lg w-2/5 h-full text-white absolute left-44 " > Search</button>
           
           </div>
         </div>
