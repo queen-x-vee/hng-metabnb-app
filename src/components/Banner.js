@@ -10,15 +10,15 @@ const Banner = () => {
   return (
     <div className="w-full bg-purple">
       <div className="w-10/12 py-2 px-20 mx-auto flex flex-row justify-between items-center h-16">
-        <div className=" w-52 flex flex-row h-6 p-1 m-2 ">
-          <img src={MbIcon} alt='banner' className="w-6/12" />
-          <img src={MbText} alt='banner1' className="w-6/12"  />
+        <div className="flex flex-row h-6 p-1 m-3 ">
+          <img src={MbIcon} alt='banner'  />
+          <img src={MbText} alt='banner1'  />
         </div>
-        <div className="w-52 flex flex-row h-6 p-1 m-2">
+        <div className="flex flex-row h-6 p-1 m-3">
           <img src={MetaMaskIcon} alt='banner2'  />
           <img src={MetaMaskText} alt='banner3'  />
         </div>
-        <div className="w-52 flex flex-row h-6 p-1 m-2">
+        <div className="flex flex-row h-6 p-1 m-3">
           <img src={OpenSeaIcon} alt='banner4'/>
           <img src={OpenSeaText} alt='banner5'  />
         </div>

@@ -15,7 +15,7 @@ const Navbar2 = () => {
           <li className="m-2">Off-grid</li>
           <li className="my-2">Farm</li>
         </ul>
-        <div className="relative flex flex-row justify-between gap-12">
+        <div className="relative flex flex-row justify-between gap-8">
 
           <select name="places" id="places" className=" border-2 border-nav-input rounded-lg p-2 md:hidden">
           <option className="text-input-placeholder" value="Places">Places</option>
