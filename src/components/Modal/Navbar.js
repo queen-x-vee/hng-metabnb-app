@@ -27,7 +27,7 @@ const Navbar = () => {
           <img src={meta} className="" alt="logo" />
         </div>
         <ul className={show ? "nav-menu active" : "nav-menu"}>
-        <div className="hamburger" onClick={handleClick}>
+        <div className="hamburger hamburger2" onClick={handleClick}>
                 {show ? (<FaTimes size={25} style={{ color: '#a02279' }}  />) : (<FaBars size={20} style={{ color: '#a02279' }} />)}
 
             </div>

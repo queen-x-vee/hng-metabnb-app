@@ -66,7 +66,7 @@
     }
     
     .nav-menu li a {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
         border-bottom: 1px solid #a02279;
     }
@@ -77,6 +77,9 @@
     }
     .imageHeader{
         width: 35%;
+    }
+    hamburger2{
+        margin-bottom: 2rem;
     }
 
 

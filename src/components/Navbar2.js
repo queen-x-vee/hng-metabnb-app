@@ -17,7 +17,7 @@ const Navbar2 = () => {
         </ul>
         <div className=" w-full md:w-fit relative flex flex-row justify-around items-center">
 
-          <select name="places" id="places" className=" w-6/12 border-2 border-nav-input rounded-lg p-2 md:hidden mr-3">
+          <select name="places" id="places" className=" w-6/12 border-2 border-nav-input rounded-lg p-2 md:hidden mr-2">
           <option className="text-input-placeholder" value="Places">Places</option>
             <option value="Restaurant">Restaurant</option>
             <option value="Cottage">Cottage</option>
